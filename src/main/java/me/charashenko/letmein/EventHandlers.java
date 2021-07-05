@@ -24,7 +24,7 @@ public class EventHandlers implements Listener {
             playerData.setLastLogin(LocalDateTime.now());
             database.updatePlayerData(playerData);
         }
-
+        System.out.println("yolo");
         System.out.println(playerData);
     }
 }
