@@ -1,9 +1,5 @@
 package me.charashenko.letmein;
 
-import java.net.Inet4Address;
-import java.net.InetAddress;
-import java.sql.Date;
-import java.sql.Time;
 import java.time.LocalDateTime;
 
 public class PlayerData {

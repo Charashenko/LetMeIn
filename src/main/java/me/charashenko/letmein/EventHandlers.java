@@ -12,7 +12,7 @@ public class EventHandlers implements Listener {
     @EventHandler
     public void onPlayerJoin(PlayerLoginEvent event) {
         Player player = event.getPlayer();
-        Database database = Letmein.getDatabase();
+        Database database = LetMeIn.getDatabase();
         PlayerData playerData = database.getPlayerData(player.getName());
         if (playerData == null) {
             playerData = new PlayerData(
