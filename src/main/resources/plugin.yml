@@ -1,0 +1,6 @@
+name: Letmein
+version: @version@
+main: me.charashenko.letmein.Letmein
+api-version: 1.17
+authors: [ Charashenko ]
+description: Player authentication plugin
